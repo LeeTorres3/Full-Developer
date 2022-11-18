@@ -1,4 +1,9 @@
 .Ejemplo{
     color: black; /*Color de letra*/
     background-color: yellow;  /*Color del bloque*/
+    font-size: 10px; /*Tamaño de letra*/
+    font-family: Courier; /*Tipografía de letra*/
+    font-style: italic; /*Letra en cursiva*/
+    font-weight: bold; /*Letra en negrita*/
+    
 }
