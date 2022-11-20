@@ -23,6 +23,3 @@ FROM stock;
 SELECT DISTINCT name
 FROM users;
 /*El (DISTINCT) excluye valores duplicados o que se repiten en la columna de la tabla*/
-
-
-
