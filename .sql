@@ -12,3 +12,17 @@ SELECT title
 FROM movies;
 /*Este ejemplo nos muestra la lista de títulos de películas de la tabla*/
 
+SELECT name, email
+FROM users;
+/*Así se hacen varias consultas separadas por una coma el nombre de las columnas de la tabla*/
+
+SELECT *
+FROM stock;
+/* con el * se puede hacer un consulta de tods los datos de la tabla*/
+
+SELECT DISTINCT name
+FROM users;
+/*El (DISTINCT) excluye valores duplicados o que se repiten en la columna de la tabla*/
+
+
+
