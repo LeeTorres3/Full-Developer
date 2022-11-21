@@ -5,5 +5,10 @@
     font-family: Courier; /*Tipografía de letra*/
     font-style: italic; /*Letra en cursiva*/
     font-weight: bold; /*Letra en negrita*/
-    
+    height: 100px; /*Se ajusta la altura de un elemento (imagen)*/
+    width: 150px; /*Se ajusta el ancho de un elemento (imagen)*/
+    border: solid;/*Se coloca un borde al rededor del elemento o texto justo al raz*/
+    border: solid 10px; /*Se coloca un borde al rededor del elemento o texto con un grosor en px*/
+    border: solid red;/*Se coloca un borde al rededor del elemento o texto con el color elejido*/
+    border-radius: 10px;/*Se coloca un borde al rededor del elemento o texto pero se achatan las esquinas*/
 }
