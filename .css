@@ -11,4 +11,16 @@
     border: solid 10px; /*Se coloca un borde al rededor del elemento o texto con un grosor en px*/
     border: solid red;/*Se coloca un borde al rededor del elemento o texto con el color elejido*/
     border-radius: 10px;/*Se coloca un borde al rededor del elemento o texto pero se achatan las esquinas*/
+    padding: 50px;/*Se usa para que el texto o elementos se ubiquen en el centro y el relleno este a los lados*/
+    padding-left: 200px;/*Se usa para que el relleno esté de lado izquierdo y el texto de lado derecho*/
+    padding-right: 200px;/*Se usa para que el relleno este de lado derecho y el texto de lado izquierdo*/
+    padding-top: 20px;/*Se usa para que el relleno este en la parte superior y el texto en la parte inferior*/
+    padding-bottom: 60px;/*Se usa para que el relleno este en la parte inferior y el texto en la parte superior*/
+    text-align: center;/*Le da la anileación al texto y lo coloca de manera centrada*/
+    margin: 30px;/*Le coloca margen al texto o elemento*/
+    margin-top: 20px;/*Coloca el margen del texto o elemento en la parte superior*/
+    margin-bottom: 100px;/*Coloca el margen del texto o elemento en la parte inferior*/
+    margin-left: 20px;/*Coloca el margen del texto o elemento de lado izquierdo*/
+    margin-right: 20px;/*Coloca el margen del texto o elemento de lado derecho*/
+    
 }
