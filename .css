@@ -22,5 +22,6 @@
     margin-bottom: 100px;/*Coloca el margen del texto o elemento en la parte inferior*/
     margin-left: 20px;/*Coloca el margen del texto o elemento de lado izquierdo*/
     margin-right: 20px;/*Coloca el margen del texto o elemento de lado derecho*/
+    padding: /*top*/20px /*right*/20px /*bottom*/20px /*left*/20px;/*Así establecemos los paddings laterales, superior e inferior al mismo tiempo, el sentido va como en las manecillas del reloj*/
     
 }
