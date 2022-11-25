@@ -27,5 +27,8 @@
     border-radius: /*arriba izquierda*/20px /* arriba derecha*/20px /*abajo derecha*/20px /*abajo izquierda*/20px;/*Así establecemos los márgenes laterales, superior en inferior de una manera más eficiente y compacta, creando estilos únicos en nuestros márgenes*/
     transform: rotate(90deg);/*Sirve para rotar un elemento, rotara en grados, en la dirección de las manesillas del reloj*/
     transform: rotate(-90deg);/*Sirve para rotar un elemento, rotara en grados, como tiene un signo de menos (-) rotara en la dirección opuesta de las manesillas del reloj (sentido antihorario)*/
-
+    filter: blur(2px);/*Esta propiedad junto con la función (blur) hacen que un elemento se desvanesca o se haga borroso*/
+    filter: grayscale(100%);/*Convierte la imagen o elemento en color gris o blanco y negro (mayor % más gris la imagen o elemento)*/
+    filter: opacity(50%);/*La imagen o elemento se ve más opaca y con falta de saturación de color (menor % mas opaca la imagen o elemeto)*/
+    
 }
