@@ -30,5 +30,15 @@
     filter: blur(2px);/*Esta propiedad junto con la función (blur) hacen que un elemento se desvanesca o se haga borroso*/
     filter: grayscale(100%);/*Convierte la imagen o elemento en color gris o blanco y negro (mayor % más gris la imagen o elemento)*/
     filter: opacity(50%);/*La imagen o elemento se ve más opaca y con falta de saturación de color (menor % mas opaca la imagen o elemeto)*/
+    filter: brightness(100%);/*Ajusta el brillo de la imagen (mayor % mayor brillo, y menor % la imagen es obscura) se puede poner valor mayor a 100%*/
+    filter: saturate(100%);/*Ajusta la intensidad y saturación de colores de la imagen (mayor % mayor saturación, y menor % la imagen es descolorida) se puede poner valor mayor a 100%*/
+    filter: contrast(85%);/*Ajusta la diferencia entre partes claras y obscuras de la imagen (entre menor % mas gris sera la imagen) se puede poner valor mayor a 100%*/
+    /*El 100% es el valor predeterminado*/
+    background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);/*Se coloca degradado de colores de arriba hacia abajo*/
+    background: linear-gradient(90deg, yellow, lightGreen);/*Se coloca un degradado de izquierda a derecha colocandolo en grados (deg)*/
+    background: linear-gradient(45deg, blue, lightGreen);/*Se coloca el degradado de forma diagonal y el degradado se hace de lado derecho*/
+    /*La dirección de los degradados van en dirección de las agujas del reloj de 0deg a 360deg*/
     
+    
+
 }
