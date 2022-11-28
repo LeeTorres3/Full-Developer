@@ -38,7 +38,8 @@
     background: linear-gradient(90deg, yellow, lightGreen);/*Se coloca un degradado de izquierda a derecha colocandolo en grados (deg)*/
     background: linear-gradient(45deg, blue, lightGreen);/*Se coloca el degradado de forma diagonal y el degradado se hace de lado derecho*/
     /*La dirección de los degradados van en dirección de las agujas del reloj de 0deg a 360deg*/
-    
+    /*Se pueden usar colores más específicos llamados colores hexadecimales #000000, estos pueden ser carácteres del (0 al 9) o de (A a la F), saber las combinaciones corresctas nos dan millones de colores, se mezclan los colores (Rojo, Verde y Azúl)*/
+    background-color: #FF0000/*Red*/, #00FF00/*Green*/, #0000FF/*Blue*/; /*Ejemplo de colores hexadecimales*/
     
 
 }
