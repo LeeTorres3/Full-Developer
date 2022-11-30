@@ -7,6 +7,7 @@
     font-weight: bold; /*Letra en negrita*/
     height: 100px; /*Se ajusta la altura de un elemento (imagen)*/
     width: 150px; /*Se ajusta el ancho de un elemento (imagen)*/
+    width: 100%; /*Podemos dimencionar el ancho drl elemento o imagen en este caso usando (%) al tamaño de nuestro bloque (div, section, body, etc...)*/
     border: solid;/*Se coloca un borde al rededor del elemento o texto justo al raz*/
     border: solid 10px; /*Se coloca un borde al rededor del elemento o texto con un grosor en px*/
     border: solid red;/*Se coloca un borde al rededor del elemento o texto con el color elejido*/
@@ -40,6 +41,4 @@
     /*La dirección de los degradados van en dirección de las agujas del reloj de 0deg a 360deg*/
     /*Se pueden usar colores más específicos llamados colores hexadecimales #000000, estos pueden ser carácteres del (0 al 9) o de (A a la F), saber las combinaciones corresctas nos dan millones de colores, se mezclan los colores (Rojo, Verde y Azúl)*/
     background-color: #FF0000/*Red*/, #00FF00/*Green*/, #0000FF/*Blue*/; /*Ejemplo de colores hexadecimales*/
-    
-
 }
