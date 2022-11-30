@@ -41,4 +41,10 @@
     /*La dirección de los degradados van en dirección de las agujas del reloj de 0deg a 360deg*/
     /*Se pueden usar colores más específicos llamados colores hexadecimales #000000, estos pueden ser carácteres del (0 al 9) o de (A a la F), saber las combinaciones corresctas nos dan millones de colores, se mezclan los colores (Rojo, Verde y Azúl)*/
     background-color: #FF0000/*Red*/, #00FF00/*Green*/, #0000FF/*Blue*/; /*Ejemplo de colores hexadecimales*/
+/* h2, .Ejemplo, p {
+    Esto es un ejemplo de un selector de agrupación, sirve para aplicarle la edición con una misma regla a varios elementos 
+}*/
 }
+
+
+
