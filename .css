@@ -47,6 +47,17 @@
     display: inline;/*Pone en una misma linea el texto, no nos permite cambiar su tamaño, funciona con: (a, em y strong)*/
     display: block;/*Pone en otra linea el texto ya que ocupan todo el ancho de la página, no nos permite cambiar su tamaño, funciona con: (p, div y h1)*/
     display: inline-block;/*Pone el elemento en la misma linea, si nos permite cambiar su tamaño, funciona con: (img y button)*/
+    float: right; /*Hace que la imagen o elemento quede de lado derecho del texto, hace que tenga wrap, esta propiedad aplica a imag*/
+    float: left; /*Hace que la imagen o elemento quede de lado izquierdo del texto, hace que tenga wrap, esta propiedad aplica a img*/
+    /*Wrap: es que los elementos esten en una sola fila o columna*/
+    clear: right;/*Es para poner un texto abajo del contenido de la imagen y texto, la imagen de arriba permanecera de lado derecho, por eso ponemos right, esta propiedad aplica a textos, hace que no tenga wrap*/
+    clear: left;/*Es para poner un texto abajo del contenido de la imagen y texto, la imagen de arriba permanecera de lado izquierdo, por eso ponemos left, esta propiedad aplica a textos, hace que no tenga wrap*/
+    position: relative; /*Sirve para cambiar la posición del elemento o texto en relación a su posición original*/
+    top: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte inferior (abajo)*/
+    right: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte lateral izquierda (izquierda)*/
+    bottom: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte superior (arriba)*/
+    left: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte lateral derecha (derecha)*/
+
 }
 
 
