@@ -44,6 +44,9 @@
 /* h2, .Ejemplo, p {
     Esto es un ejemplo de un selector de agrupación, sirve para aplicarle la edición con una misma regla a varios elementos 
 }*/
+    display: inline;/*Pone en una misma linea el texto, no nos permite cambiar su tamaño, funciona con: (a, em y strong)*/
+    display: block;/*Pone en otra linea el texto ya que ocupan todo el ancho de la página, no nos permite cambiar su tamaño, funciona con: (p, div y h1)*/
+    display: inline-block;/*Pone el elemento en la misma linea, si nos permite cambiar su tamaño, funciona con: (img y button)*/
 }
 
 
