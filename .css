@@ -57,6 +57,17 @@
     right: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte lateral izquierda (izquierda)*/
     bottom: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte superior (arriba)*/
     left: 30px;/*Se usa con (position: relative;) y coloca la cantidad indicada de pixeles de su posición original y pone el elemento en la parte lateral derecha (derecha)*/
+    position: absolute;/*Sirve para cambiar la posición del elemento o texto, y lo mueve hacia la dirección que le indiquemos, tambien usa otro flujo anormal, puede enpalmar elementos en otros*/
+    top: 20px;/*Se usa con (position: absolute;) lo mueve totalmente para la parte superior de la página, los (px) indican el espacio de separacion de la parte superior*/
+    right: 20px;/*Se usa con (position: absolute;) lo mueve totalmente para la parte lateral derecha de la página, los (px) indican el espacio de separacion de la parte lateral derecha*/
+    bottom: 20px;/*Se usa con (position: absolute;) lo mueve totalmente para la parte inferior de la página, los (px) indican el espacio de separacion de la parte inferior*/
+    left: 20px;/*Se usa con (position: absolute;) lo mueve totalmente para la parte lateral izquierda de la página, los (px) indican el espacio de separacion de la parte lateral izquierda*/
+    z-index: -1;/*Se usa para colocar un elemento detras de otro como si fuera un fondo*/
+    z-index: 0;/*Todos los elemento por defecto predeterminado tienen estan en 0, estos pueden ir encima de los elemetos -1*/
+    z-index: 1;/*Se usa para colocar un elemento encima de otro como si se empalmara*/
+    /*Los z-index pueden tener numeros positivos y negativos, los positivos más altos se empalmaran sobre los más bajos*/
+    
+
 
 }
 
