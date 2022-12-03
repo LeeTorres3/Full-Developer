@@ -66,7 +66,7 @@
     z-index: 0;/*Todos los elemento por defecto predeterminado tienen estan en 0, estos pueden ir encima de los elemetos -1*/
     z-index: 1;/*Se usa para colocar un elemento encima de otro como si se empalmara*/
     /*Los z-index pueden tener numeros positivos y negativos, los positivos más altos se empalmaran sobre los más bajos*/
-    
+    display: flex;/*Hace que los elementos se adapten en tamaño para que quepan todos de manera simétrica en la página o contenedor, los alinea en una sola fila, hasta modifica el tamaño de los elementos para que quepan en una sola fila, pero si el elemento es muy aplio no podra dividirse y se desbordara del contenedor, para usarlo debemos poner <div> anidado dentro de otro <div> en nuestro HTML*/
 
 
 }
