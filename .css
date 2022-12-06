@@ -71,6 +71,11 @@
     flex-direction: column;/*Sirve para que la dirección de los elementos sea de forma vertical de arriba a abajo*/
     flex-direction: row-reverse;/*Sirve para que la dirección de los elementos sea de forma horizontal de derecha a izquierda, de forma inverida a (row)*/
     flex-direction: column-reverse;/*Sirve para que la dirección de los elementos sea de forma vertical de abajo hacia arriba, de forma invertida a (column)*/
+    justify-content: flex-start;/*Los elementos los acomoda al inicio del contenedor, de manera horizontal*/
+    justify-content: flex-end;/*Los elementos los acomoda al final del contenedor, de manera horizontal*/
+    justify-content: center;/*Los elementos los acomoda en el centro del contenedor*/
+    justify-content: space-around;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero teniendo un espacio entre el borde y el primer y ultimo elemeto*/
+    justify-content: space-between;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero los elementos ultimos y primeros se repegan totalmente al borde*/
 
 }
 
