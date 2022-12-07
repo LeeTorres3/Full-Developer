@@ -71,11 +71,15 @@
     flex-direction: column;/*Sirve para que la dirección de los elementos sea de forma vertical de arriba a abajo*/
     flex-direction: row-reverse;/*Sirve para que la dirección de los elementos sea de forma horizontal de derecha a izquierda, de forma inverida a (row)*/
     flex-direction: column-reverse;/*Sirve para que la dirección de los elementos sea de forma vertical de abajo hacia arriba, de forma invertida a (column)*/
-    justify-content: flex-start;/*Los elementos los acomoda al inicio del contenedor, de manera horizontal*/
-    justify-content: flex-end;/*Los elementos los acomoda al final del contenedor, de manera horizontal*/
-    justify-content: center;/*Los elementos los acomoda en el centro del contenedor*/
-    justify-content: space-around;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero teniendo un espacio entre el borde y el primer y ultimo elemeto*/
-    justify-content: space-between;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero los elementos ultimos y primeros se repegan totalmente al borde*/
+    justify-content: flex-start;/*Los elementos los acomoda al inicio del contenedor, de manera horizontal o verical dependiendo si la direccion es row o column*/
+    justify-content: flex-end;/*Los elementos los acomoda al final del contenedor, de manera horizontal o vertical dependiendo si la direccion es row o column*/
+    justify-content: center;/*Los elementos los acomoda en el centro del contenedor, funcionan tanto en row y column*/
+    justify-content: space-around;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero teniendo un espacio entre el borde y el primer y ultimo elemento, funcionan tanto en row y column*/
+    justify-content: space-between;/*Los elementos los acomoda espaciados y los distribuye de manera simetrica por todo el contenedor pero los elementos ultimos y primeros se repegan totalmente al borde, funcionan tanto en row y column*/
+    align-items: stretch;/*Hace que los elementos llenen todo el espacio del contenedor de manera vertical si la dirección es en row, pero si la dirección es en column llenan todo el espacio del contenedor de manera horizontal*/
+    align-items: flex-start;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al comienzo del contenedor (lado superior izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior izquierdo)*/
+    align-items: flex-end;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al final del contenedor (lado inferior izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior derecho)*/
+    align-items: center;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al centro del contenedor (lado central izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior central*/
 
 }
 
