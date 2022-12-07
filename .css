@@ -80,6 +80,16 @@
     align-items: flex-start;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al comienzo del contenedor (lado superior izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior izquierdo)*/
     align-items: flex-end;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al final del contenedor (lado inferior izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior derecho)*/
     align-items: center;/*Hace que los elementos tomen el tamaño de su contenido y los alinian al centro del contenedor (lado central izquierdo) esto en la direccion row, en la dirección column hace lo mismo pero de manera vertical (lado superior central*/
+    flex-wrap: nowrap;/*Hace que si los elementos ya no pueden encogerse se desbordaran de su contenedor, es el valor predeterminado de todos los elementos, funcióna en dirección row y column*/
+    flex-wrap: wrap;/*Hace que los elementos dirección row que ya no puedan encogerse comiencen una nueva linea abajo de los otros elementos para evitar que se desborden del contenedor, los elementos dirección column los elementos se colocaran de lado derecho de los otros elementos y el sentido será en verical*/
+    flex-wrap: wrap-reverse;/*Hace que los elementos en dirección row que ya no puedan encogerse comiencen una nueva linea arriba de los otros elementos para evitar que se desborden del contenedor, los elementos dirección column los elementos se colocaran de lado izquierdo de los otros elementos y el sentido será en verical*/
+    align-content: stretch; /*Hace que los elemetos se estiren hasta donde se ubique el otro elemento, puede ser de manera vertical u horizontal, funciona en dirección row y column, abarca todo el espacio del contenedor*/
+    align-content: flex-start;/*Hace que los elementos se estiren de manera horizontal u vertical hasta donde se ubique el otro elemento, comenzando en la parte superior*/
+    align-content: flex-end;/*Hace que los elementos se estiren de manera horizontal u vertical hasta donde se ubique el otro elemento, comenzando en la parte inferior*/
+    align-content: center;/*Hace que los elementos se estiren de manera horizontal u vertical hasta donde se ubique el otro elemento, comenzando en la parte central*/
+    align-content: space-around;/*Hace que los elementos esten espaciados uno del otro pero sin pegarse con los bordes del contenedor*/
+    align-content: space-between;/*Hace que los elementos esten espaciados uno del otro y se pega con los bordes del contenedor*/
+    
 
 }
 
