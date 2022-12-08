@@ -89,7 +89,10 @@
     align-content: center;/*Hace que los elementos se estiren de manera horizontal u vertical hasta donde se ubique el otro elemento, comenzando en la parte central*/
     align-content: space-around;/*Hace que los elementos esten espaciados uno del otro pero sin pegarse con los bordes del contenedor*/
     align-content: space-between;/*Hace que los elementos esten espaciados uno del otro y se pega con los bordes del contenedor*/
-    
+    flex-basis: auto;/*Los elementos tienen el tamaño de su contenido, (auto) es el valor predeterminado de todos los elementos*/
+    flex-basis: 100px;/*Establece el tamaño de un elemento en (px) pixeles*/
+    flex-basis: 50%;/*Establece el tamaño de un elemento en (%) porcentaje, dependiendo del tamaño del contenedor en el que se encuentra sera el tamaño que se le dara al elemento*/
+    /*(flex-basis) esta vinculado con la dirección row y column, si es dirección row va a determinar el ancho de un elemento, y si la dirección es column va a determinar la altura del elemento*/
 
 }
 
