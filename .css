@@ -93,6 +93,8 @@
     flex-basis: 100px;/*Establece el tamaño de un elemento en (px) pixeles*/
     flex-basis: 50%;/*Establece el tamaño de un elemento en (%) porcentaje, dependiendo del tamaño del contenedor en el que se encuentra sera el tamaño que se le dara al elemento*/
     /*(flex-basis) esta vinculado con la dirección row y column, si es dirección row va a determinar el ancho de un elemento, y si la dirección es column va a determinar la altura del elemento*/
+    flex-grow: 0;/*Con el valor en 0 flex-grow no hara crecer el elemento y se quedara en su tamaño predeterminado*/
+    flex-grow: 1;/*Con el valor 1 flex-grow hara que el elemento crezca y abarque todo el espacio disponible a lo ancho en el caso de la direccion row y a lo alto en la direccion column, hasta encajonar a los otros elementos*/
 
 }
 
