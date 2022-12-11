@@ -94,7 +94,14 @@
     flex-basis: 50%;/*Establece el tamaño de un elemento en (%) porcentaje, dependiendo del tamaño del contenedor en el que se encuentra sera el tamaño que se le dara al elemento*/
     /*(flex-basis) esta vinculado con la dirección row y column, si es dirección row va a determinar el ancho de un elemento, y si la dirección es column va a determinar la altura del elemento*/
     flex-grow: 0;/*Con el valor en 0 flex-grow no hara crecer el elemento y se quedara en su tamaño predeterminado*/
-    flex-grow: 1;/*Con el valor 1 flex-grow hara que el elemento crezca y abarque todo el espacio disponible a lo ancho en el caso de la direccion row y a lo alto en la direccion column, hasta encajonar a los otros elementos*/
+    flex-grow: 1;/*Con el valor 1 flex-grow hara que el elemento crezca y abarque todo el espacio disponible a lo ancho en el caso de la direccion row y a lo alto en la direccion column, hasta encajonar a los otros elementos, si ponemos a todos los elementos el (1) todos creceran del mismo tamaño y llenaran el contenedor*/
+    flex-grow: 2;/*Con los valores arriba de uno podemos agrandar el elemento del tamaño que queramos y este empujara a los otros elementos llenando el contenedor, puede contener 0,1,2,3...etc, o bien: 10,20,30,45...etc*/
+    flex-shrink: 0;/*Hace que el elemento se encoja, en 0 no se encojera nada y puede que los elementos se desborden de su contenedor*/
+    flex-shrink: 1;/*El elemento se encoje más dependiendo que tan grande sea el número establecido, entre más grande el número más se encojera el elemento, se puede usar: 0,1,2,3...etc, el 1 es el valor predeterminado de todos los elementos*/
+    flex: 0 1 auto;/*Se combina los flex y van en el siguiente orden: flex-grow, flex-shrink y flex-basis, en este ejemplo cada uno lo ponemos con sus valores predeterminados, asi podremos modificar el tamaño del elemento de una manera más compactay organizada*/
+    
+
+
 
 }
 
