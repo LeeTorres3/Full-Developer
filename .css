@@ -99,9 +99,14 @@
     flex-shrink: 0;/*Hace que el elemento se encoja, en 0 no se encojera nada y puede que los elementos se desborden de su contenedor*/
     flex-shrink: 1;/*El elemento se encoje más dependiendo que tan grande sea el número establecido, entre más grande el número más se encojera el elemento, se puede usar: 0,1,2,3...etc, el 1 es el valor predeterminado de todos los elementos*/
     flex: 0 1 auto;/*Se combina los flex y van en el siguiente orden: flex-grow, flex-shrink y flex-basis, en este ejemplo cada uno lo ponemos con sus valores predeterminados, asi podremos modificar el tamaño del elemento de una manera más compactay organizada*/
+    display: grid;/*Crea un contenedor para poner elementos en distintas posiciones, vertical y horizontal en un mismo contenedor, para editarlo podemos usar: (grid-template-colums), si hay mas elementos que no caben en ele contenedor, estos se irán recorriendo a la siguiente fila*/
+    grid-template-columns: 50px 50px 120px;/*Asigna el valor del tamaño de los contenedores dentro del contenedor, por ejemplo: 1er elemento: 50px, 2do elemento: 50px, 3er elemento: 120px, 4to elemento: 50px, etc..., los elementos se ponen en columna y mientras se encuentren en la posición de los demás elementos de arriba tendrán ese tamaño, como se muestra en el ejemplo*/
+    grid-template-columns: 20% 10% 80px;/*El tamaño de los elementos los determina en (%) porcentaje y se puede convinar con las fracciones y pixeles, entre mayor sea el porcentaje mayor será el tamaño del elemento*/
+    grid-template-columns: auto auto 10px;/*El valor (auto) hace que el elemento ocupe el mayor espacio disponible en el contenedor*/
+    grid-template-columns: 1fr 2fr 1fr;/*El valor (fr) significa unidad de medida en fracción, distribuye el espacio del contenedor en fracciones, entre mayor numero entero mayor será el tamaño del elemento, si ponemos por ejemplo 1fr 1fr estos dos elementos en el contenedor se dividiran ene partes iguales y ocuparan todo el espacio del contenedor*/
+    grid-template-columns: 50px 1fr 2fr;/*Los (px) pixeles se pueden convinar con las (fr) fracciones, el primer valor respetara el tamaño de 50px y los otros dos ocuparan el espacio disponible que sobre y se dividiran de manera fraccionada*/
+    grid-template-columns: repeat(3, 1fr);/*Hace que los elementos se pongan en la cantidad de fracciones que lo queramos dividir, es un atajo, es una manera más compacta y ordenada de poner: grid-template-columns: 1fr 1fr 1fr, el primer valor es la cantidad de columnas que habrá*/
     
-
-
 
 }
 
