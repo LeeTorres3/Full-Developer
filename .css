@@ -106,7 +106,12 @@
     grid-template-columns: 1fr 2fr 1fr;/*El valor (fr) significa unidad de medida en fracción, distribuye el espacio del contenedor en fracciones, entre mayor numero entero mayor será el tamaño del elemento, si ponemos por ejemplo 1fr 1fr estos dos elementos en el contenedor se dividiran ene partes iguales y ocuparan todo el espacio del contenedor*/
     grid-template-columns: 50px 1fr 2fr;/*Los (px) pixeles se pueden convinar con las (fr) fracciones, el primer valor respetara el tamaño de 50px y los otros dos ocuparan el espacio disponible que sobre y se dividiran de manera fraccionada*/
     grid-template-columns: repeat(3, 1fr);/*Hace que los elementos se pongan en la cantidad de fracciones que lo queramos dividir, es un atajo, es una manera más compacta y ordenada de poner: grid-template-columns: 1fr 1fr 1fr, el primer valor es la cantidad de columnas que habrá*/
-    
+    grid-template-rows: 50px 10% 1fr;/*Los elementos se establecen su tamaño en filas, uno a lado de otro elemento, se puede usar unidad de medida px, % y fr y se pueden combinar entre ellas*/
+    grid-template-rows: auto auto;/*Hace que la columna ocupe el máxico espacio disponible dentro del contenedor*/
+    grid-template-rows: repeat(3, 40px);/*Hace que alla 3 filas de elementos dentro del contenedor, cada elemento con una altura de 40px*/
+    grid-template: 50px 50px / 80px 80px;/*Coloca los elementos en filas y columnas, los valores de la izquierda son filas (row) y los valores de la derecha son columnas (column), estas dos se combinan, en este caso se colocaria 2 filas de 50px ele elemento por dos columnas de 80px ele elemento*/
+    grid-template: 1fr auto / 30% 30px;/*Se puede combinar pixeles (px), porcentajes (%) y fracciones (fr), al igual que (auto) que ocupa el mayor espacio disponible en el elemento*/
+     
 
 }
 
