@@ -120,6 +120,8 @@
     column-gap: 5px;/*Hace que los elementos en cuadricula tengan un espacio de manera vertical, los elementos de alado son los que tienen el espacio de px*/
     gap: 5px 10px;/*Pone espacio entre los elementos de cuadricula al mismo tiempo, el primer valor es de las filas (row) y el segundo valor es de las columnas (column)*/
     gap: 10px;/*Si solo se coloca un valor en el gap, este valor se aplicara de misma manera para row y column, da el espacio igual*/
+    grid-column: span 2;/*Sirve para expandir un elemento en lo ancho, los valores despues del (span) son que el elemento abarcara cierta cantidad de tamaño (columnas) a lo ancho, se dvivide en columnas*/
+    grid-row: span 3;/*Sirve para expandir un elemento a lo alto, los valores despues del (span) son que el elemento abarcara cierta cantidad de tamaño (filas) a lo alto, se divide en filas*/
     
 
 }
