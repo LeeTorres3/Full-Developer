@@ -105,7 +105,7 @@
     flex-shrink: 1;/*El elemento se encoje más dependiendo que tan grande sea el número establecido, entre más grande el número más se encojera el elemento, se puede usar: 0,1,2,3...etc, el 1 es el valor predeterminado de todos los elementos*/
     flex: 0 1 auto;/*Se combina los flex y van en el siguiente orden: flex-grow, flex-shrink y flex-basis, en este ejemplo cada uno lo ponemos con sus valores predeterminados, asi podremos modificar el tamaño del elemento de una manera más compactay organizada*/
     display: grid;/*Crea un contenedor para poner elementos en distintas posiciones, vertical y horizontal en un mismo contenedor, para editarlo podemos usar: (grid-template-colums), si hay mas elementos que no caben en ele contenedor, estos se irán recorriendo a la siguiente fila*/
-    grid-template-columns: 50px 50px 120px;/*Asigna el valor del tamaño de los contenedores dentro del contenedor, por ejemplo: 1er elemento: 50px, 2do elemento: 50px, 3er elemento: 120px, 4to elemento: 50px, etc..., los elementos se ponen en columna y mientras se encuentren en la posición de los demás elementos de arriba tendrán ese tamaño, como se muestra en el ejemplo*/
+    grid-template-columns: 50px 50px 120px;/*Asigna el valor del tamaño de los elementos dentro del contenedor, por ejemplo: 1er elemento: 50px, 2do elemento: 50px, 3er elemento: 120px, 4to elemento: 50px, etc..., los elementos se ponen en columna y mientras se encuentren en la posición de los demás elementos de arriba tendrán ese tamaño, como se muestra en el ejemplo*/
     grid-template-columns: 20% 10% 80px;/*El tamaño de los elementos los determina en (%) porcentaje y se puede convinar con las fracciones y pixeles, entre mayor sea el porcentaje mayor será el tamaño del elemento*/
     grid-template-columns: auto auto 10px;/*El valor (auto) hace que el elemento ocupe el mayor espacio disponible en el contenedor*/
     grid-template-columns: 1fr 2fr 1fr;/*El valor (fr) significa unidad de medida en fracción, distribuye el espacio del contenedor en fracciones, entre mayor numero entero mayor será el tamaño del elemento, si ponemos por ejemplo 1fr 1fr estos dos elementos en el contenedor se dividiran ene partes iguales y ocuparan todo el espacio del contenedor*/
@@ -122,8 +122,12 @@
     gap: 10px;/*Si solo se coloca un valor en el gap, este valor se aplicara de misma manera para row y column, da el espacio igual*/
     grid-column: span 2;/*Sirve para expandir un elemento en lo ancho, los valores despues del (span) son que el elemento abarcara cierta cantidad de tamaño (columnas) a lo ancho, se dvivide en columnas*/
     grid-row: span 3;/*Sirve para expandir un elemento a lo alto, los valores despues del (span) son que el elemento abarcara cierta cantidad de tamaño (filas) a lo alto, se divide en filas*/
+    grid-area: item1;/*En nuestro HTML agregamos clases con nombres los cuales seran el nombre de nuestra area, (grid-area) asigna el nombre de esas clases para editar los elementos con CSS*/
+    grid-template-areas: item1 item2 item3;/*Creamos una fila cudriculada con tres columnas y esos elementos se expamden por todo el contenedor, agregamos los nombres de las areas ya asignadas*/
+    grid-template-areas: item1 item1 item2;/*Si queremos ocupar mas espacio ponemos repetidas veces el nombre del elemento para que ocupe ese espacio en el contenedor, por ejemplo: (item1 item1 item2)*/
+    grid-template-areas:  item1  item2;/*poner . o ... Dejamos espacio entre un elemento y otro dentro de las areas de la cuadricula (. item1 . item2*/
+    grid-template-areas: "item1 item2" "item3 item4";/*Cada elemento que esta en cada comilla es un elemento, sirve para cuando tenemos varios elementos dentro del contenedor, entonces en este ejemplo hay 2 filas en el contenedor*/
     
-
 }
 
 
