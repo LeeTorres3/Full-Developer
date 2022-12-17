@@ -127,7 +127,19 @@
     grid-template-areas: item1 item1 item2;/*Si queremos ocupar mas espacio ponemos repetidas veces el nombre del elemento para que ocupe ese espacio en el contenedor, por ejemplo: (item1 item1 item2)*/
     grid-template-areas:  item1  item2;/*poner . o ... Dejamos espacio entre un elemento y otro dentro de las areas de la cuadricula (. item1 . item2*/
     grid-template-areas: "item1 item2" "item3 item4";/*Cada elemento que esta en cada comilla es un elemento, sirve para cuando tenemos varios elementos dentro del contenedor, entonces en este ejemplo hay 2 filas en el contenedor*/
-    
+/*.container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "item item item item" "element ejemplo ejemplo ejemplo" "element photo photo button" "footer footer footer footer"
+}
+Ejemplo de uso de grid para crear areas o secciones dentro de un contenedor, para ordenar elementos de una fotrma determinada*/
+
+   justify-items: stretch;/*Hace que los elementos dentro del contenedor en fila tengan una alineación predeterminada, hace que los elementos ocupen el maximo espacio posible pasa lo mismo en columna*/
+   justify-items: start;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que se pegue al borde izquierdo del contenedor, en sentido de izquierda a derecha, en columna los elementos se pegan al borde superior y el sentido es de arriba a abajo*/
+   justify-items: end;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que se pegue al borde derecho del contenedor, en sentido de derecha a izquierda, en columna los elementos se pegan al borde inferior y el sentido es de abajo a arriba*/
+   justify-items: center;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que este al centro y tenga la misma distancia entre los elementos y los bordes, en columna los elementos se acomodan al centro de los bordes superios e inferior y tienen la misma distancia entre los elementos y los bordes*/
+   
+
 }
 
 
