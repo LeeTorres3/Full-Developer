@@ -138,6 +138,7 @@ Ejemplo de uso de grid para crear areas o secciones dentro de un contenedor, par
    justify-items: start;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que se pegue al borde izquierdo del contenedor, en sentido de izquierda a derecha, en columna los elementos se pegan al borde superior y el sentido es de arriba a abajo*/
    justify-items: end;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que se pegue al borde derecho del contenedor, en sentido de derecha a izquierda, en columna los elementos se pegan al borde inferior y el sentido es de abajo a arriba*/
    justify-items: center;/*Hace que los elementos dentro del contenedor en fila tengan una alineación que este al centro y tenga la misma distancia entre los elementos y los bordes, en columna los elementos se acomodan al centro de los bordes superios e inferior y tienen la misma distancia entre los elementos y los bordes*/
+   /*Podemos combinar nuestro grid para definir estructura con nuestro flex para definir alineación*/
    
 
 }
