@@ -50,6 +50,50 @@ const greeting = "Hello developers!";
 console.log(greeting);
 // Muestra en la consola el valor de la variable (greeting);
 
+let currentStatus = "Waching Netflix";
+currentStatus = "Relaxing at the Beach";
+console.log(currentStatus);
+
+currentStatus = "Reading";
+console.log(currentStatus);
+// Ejemplo de como se actualiza el valor de una variable utilizando (let), cuando actualizamos una varible se olvida de su valor anterior y ejecuta el nuevo que actualizamos;
+
+let variable1 = "reading1";
+let variable2 = "reading2";
+variable1 = variable2;
+console.log(variable2);
+// Ejemplo de como una varible imprime el valorr de otra variable ya que su valor de la variable1 es la varible2;
+
+const label = "Edad:" + "15";
+console.log(label);
+// Uso de el signo (+ más) en variables, sumando los strings para que se muestren en la consola, la consola lo mostrara juntos los strings que aya (Edad:15) los valores se muestran sin dejar espacios;
+
+
+const firstName = "Lee";
+const lastName = "Torres";
+console.log(firstName + lastName);
+// Ejemplo de suma de variables, la consola mostrara: (Lee Torres);
+
+const suma = 3 + 1; // Se suman los valores con el signo de (+);
+const resta = 5 - 2; // Se restan los valores con el signo de (-);
+const multiplicacion = 2 * 2; // Se multiplican los valores con el signo de (*);
+const division = 10 / 2; // Se dividen los valores con el signo de (/);
+console.log(suma); // La consola muestra el resultado de la suma (4);
+console.log(resta); // La consola muestra el resultado de la resta (3);
+console.log(multiplicacion); // La consola muestra el resultado de la multiplicacion (4);
+console.log(division); // La consola muestra el resultado de la division (5);
+// Ejemplo de operaciones basicas usando signos y números, los valores de variables en números no llevan comillas como los strings;
+
+const numberOfSteps = 70;
+console.log("You're on step");
+console.log(numberOfSteps + 5);
+// La consola muestra: (You're on step 75);
+
+const strings = "4" + "8";
+console.log(strings);
+// La consola muestra el valor de (48) ya que los valores son strings y no números, solo junto los numeros si son strings, si su valor son solo numeros sin strings se haria la operación;
+
+
 var answer = pickRandom([
     'yes',
     'no'
