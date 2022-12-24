@@ -15,14 +15,40 @@ drawBox(stripeColor);
 var myExample;
 myExample = 'I created a variable';
 print(myExample);
-myExample = 'I changed the value';
-print(myExample);
-//Ejemplo de variable;
+//Ejemplo de variable usando var;
+
+let variable = "string";
+// Creación de variable usando (camel case): que es hacer una variable con varias palabras, entre varias palabras no debe haber espacios, por eso se ponen las demás palabras iniciando con muyúscula, el string va dentro de las comillas y puede contener cualquier tipo de signo, el nombre de la varible es (variable) el valor es (string);
+// Con (let) podemos actualizar los valores de manera flexible sin que marque error como en (const);
+
+const EXAMPLE_OF_SNAKE_CASE = "string";
+// El snake_case es usar letras mayúsculas y usar guión_bajo para separación de palabras, se usan prinsipalmente en (const) para que no se cambien sus valores; 
+let exampleOfCamelCase ="string";
+// El camel case es usasr letras minúsculas y no dejar espacio y al poner una nueva palabra la ponemos la primer letra en mayúscula;
+
+let myCity
+myCity = 'CityFromMexico';
+print(myCity);
+//Ejemplo de varible usando let;
+
+const constante = "string";
+// Al usar (const) como varible significa que sus valores no deben cambiar, si tratamos de actualizar la variable por otro valor nos marcara error, (const) significa "constante", esta es la variable que debemos usar como predeterminada;
+
+const city = "Chicago";
+print(city);
+// Creamos varible (city) y le asignamos un valor (Chicago) usando const;
 
 var word = 'alphabet';
 var alphabet = 'word';
 print(alphabet);
 //Se imprime la palabra word;
+
+console.log("Hello, World!");
+// Instrucción para que el computador muestre el valor en la consola;
+
+const greeting = "Hello developers!";
+console.log(greeting);
+// Muestra en la consola el valor de la variable (greeting);
 
 var answer = pickRandom([
     'yes',
