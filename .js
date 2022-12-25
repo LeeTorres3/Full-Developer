@@ -93,6 +93,41 @@ const strings = "4" + "8";
 console.log(strings);
 // La consola muestra el valor de (48) ya que los valores son strings y no números, solo junto los numeros si son strings, si su valor son solo numeros sin strings se haria la operación;
 
+console.log("verdadero y falso");
+const accion = true;
+const noAccion = false;
+console.log(accion);
+//Uso de true y false, sirven para mostrar o indicar si una funcion esta activada o desactivada o si es verdadera o falsa, o si sucedio o no sucedio;
+
+console.log(!true);//La consola muestra (false);
+console.log(!false);//La consola muestra (true);
+//El signo de (!) es el operador de negación, convierte los valores en los contrario;
+
+const primavera = true;
+console.log(!primavera);
+//El operador (!) muestra en la consola (false), indicando que no es primavera;
+
+const isMorning = true;
+const isEvening = !isMorning;
+console.log(isEvening);
+//La consola mostrara (false) indicando que no es de día, es de tarde;
+
+console.log(5 === 5);//La consola muestra (true);
+console.log(8 === 10);//La consola muestra (false);
+//El signo de (===) es el operador de igualdad, si es verdadera la igualdad muestra true y si es negativa muestra false;
+
+const votes = 10;
+console.log(votes === 11);//La consola muestra false, ya que votes es 10 no 11;
+//Ejemplo de comparacion con el operador de igualdad (===);
+
+console.log(8 !== 10);//La consola muestra (true);
+console.log(5 !== 5);//La consola muestra (false);
+//El signo de (!==) es el operador de desigualdad, si la igualdad es desigual muestra true y si es igual muestra false ya que no es desigual los valores;
+
+const myLevel = 20;
+const youLevel = 22;
+console.log(myLevel !== youLevel);
+//La consola mostrara true ya que los valores son desiguales;
 
 var answer = pickRandom([
     'yes',
