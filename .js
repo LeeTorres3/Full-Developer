@@ -230,7 +230,56 @@ const resultado = (cloundStorage > fileSize) || (systemStorage > fileSize);//Si 
 console.log("Saved? :" + resultado);//No se cumple con la primera afirmacion que equivale a false pero la segunda si y esa equivale a true, entonces el archivo si se guarda ya que el tamaño de alamacenamiento es superior al del archivo;
 //La consola imprime true, contexto: guardar un archivo en la nube si el almacenaniento de esta es mayor al del archivo o si el almacenamiento del sistema es mayor que la del tamaño del archivo;
 
-var answer = pickRandom([
+if (true) {
+    console.log("Hello");
+}
+//Uso de la sentencia if sirve ejecutar el codigo, aqui la consola muestra el texto: (Hello) ya que (true) es la condicional y le indica que ejecute el código, (false y true) son condiciones;
+
+if (false) {
+    console.log("Hello");
+}
+//Aqui la consola no muestra el texto: (Hello) ya que (false) es la condicional y le indica que no ejecute el código, que ignore el codigo;
+
+const ejecutar = true;
+if (ejecutar) {
+    console.log("Hello");
+    console.log("This is a code block");
+    console.log("Contains the lines that we want");
+}
+//Esto es un bloque de codigo, se ejecutara por que tiene la condición true dentro de una variable y ejecutara todo lo que está dentro de los parentesis;
+
+let answer = "Picasso";
+if (answer === "Picasso") {
+    console.log(answer + " is correct!");
+}
+//La consola imprime (Picasso is correct!) ya que si el valor de answer es igual a la palabra "Picasso" seria equivalente a un true por que se cumple la condición de igualdad (===) se ejecutara la consola con el valor de answer y el string;
+
+let answer1 = "Matisse";
+if (answer1 !== "Picasso") {
+    console.log(answer + " is wrong!");
+}
+//La conola imprime (Matisse is wrong!) ya que si el valor de answer es desigual a  la palabra "Picasso" seria equivalente a un true por que se cumple la condición de desigualdad (!==) se ejecutara la consola el valor de answer y el string;
+
+let age1 = 75;
+if (age >= 55) {
+    console.log("Discount applied");
+}
+//La consola imprime (Discount applied) ya que si el valor de age (75) es mayor o igual que 55 que equivale a un true ya que la condición si se cumple, la consola ejecuta el codigo e imprime (Discount applied);
+
+let isDay = true;
+if (isDay === true) {
+    console.log("Lights off!");
+}
+//La consola imprime (Lights off!) ya que si el valor de isDay (true) es igual a true la consola debe ejecutar el codigo e imprimir el string;
+
+let score1 = 51;
+let pass = score > 50;
+if (pass) {
+    console.log(pass);
+}
+//La consola muestra true ya que si el score es mayor a 50 si puede obtener el pass;
+
+var answet = pickRandom([
     'yes',
     'no'
 ])
@@ -282,7 +331,7 @@ if (color === blue) {
 }
 //Editor if, uso de colores, si es verdadera la igualdad "===" solo se ejecuta;
 
-var answer = pickRandom([
+var answel = pickRandom([
     'heads',
     'tails'
 ])
