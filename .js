@@ -93,11 +93,23 @@ const strings = "4" + "8";
 console.log(strings);
 // La consola muestra el valor de (48) ya que los valores son strings y no números, solo junto los numeros si son strings, si su valor son solo numeros sin strings se haria la operación;
 
+const result = "10" + 10;
+console.log(result);
+//La consola muestra (1010) ya que al sumar un string de número con un número se tranformas el número en string;
+
+const resulted = "Your score:" + 99;
+console.log(resulted);
+//La consola muestra (You score: 99) ya que se junta el string con el número y da ese resultado;
+
 console.log("verdadero y falso");
 const accion = true;
 const noAccion = false;
 console.log(accion);
 //Uso de true y false, sirven para mostrar o indicar si una funcion esta activada o desactivada o si es verdadera o falsa, o si sucedio o no sucedio;
+
+const resultedT = "Your score:" + true;
+console.log(resultedT);
+//La consola muestra (You score: true) ya que se junta el string con el booleano y da ese resultado;
 
 console.log(!true);//La consola muestra (false);
 console.log(!false);//La consola muestra (true);
@@ -120,6 +132,13 @@ const votes = 10;
 console.log(votes === 11);//La consola muestra false, ya que votes es 10 no 11;
 //Ejemplo de comparacion con el operador de igualdad (===);
 
+console.log("apple" === "apple");//La consola muestra (true) ya que el string es el mismo;
+console.log("apple" === "orange");//La consola muestra (false) ya que el string no es igual;
+
+const manzana = "apple";
+const platano = "banana";
+console.log(manzana === platano);//La consola mostrara (false) ya que los valores de las variables no son iguales;
+
 console.log(8 !== 10);//La consola muestra (true);
 console.log(5 !== 5);//La consola muestra (false);
 //El signo de (!==) es el operador de desigualdad, si la igualdad es desigual muestra true y si es igual muestra false ya que no es desigual los valores;
@@ -128,6 +147,88 @@ const myLevel = 20;
 const youLevel = 22;
 console.log(myLevel !== youLevel);
 //La consola mostrara true ya que los valores son desiguales;
+
+console.log("apple" !== "apple");//La consola muestra (flase) ya que el string es el mismo;
+console.log("apple" !== "orange");//La consola muestra (true) ya que el string no es igual;
+
+const manzanita = "apple";
+const platanito = "banana";
+console.log(manzanita !== platanito);//La consola mostrara (true) ya que los valores de las variables no son iguales y usa el operador de deisgualdad;
+
+console.log(50 > 49);//La consola mostrara (true) por que 50 si es mayor que 49;
+console.log(49 > 51);//La consola mostrara (false) por que 49 es menor que 51;
+console.log(30 < 60);//La consola mostrara (true) por que 30 es menor que 60;
+console.log(20 < 9);//La consola mostrara (false) por que 20 es mayor que 9;
+// Los signos (> mayor que) (< menor que) son los operadores de mayor y menor que, nos ayudan a comparar números;
+
+console.log(50 >= 50);//La consola mostrara (true) por que 50 es igual o mayor que 50;
+console.log(49 >= 51);//La consola mostrara (false) por que 49 es menor que 51;
+console.log(30 <= 60);//La consola mostrara (true) por que 30 es menor que 60;
+console.log(20 <= 9);//La consola mostrara (false) por que 20 es mayor que 9;
+// Los signos (>= mayor o igual que) (<= menor o igual que) son los operadores de mayor, menor o igual que, nos ayudan a comparar si números son mayores, menores o iguales;
+
+const cadenas = "Cookie";//Valor de cadena, entran aqui los strings; 
+const numero = 40;//Valor de número, entran aquí números;
+const booleano = true;//Valor booleano; entra aquí true y false;
+//A los valores de cadenas, números y booleanos se les conoce como tipos;
+
+let isBatteryOn = true;
+let isSwitchOn = true;
+console.log(isBatteryOn && isSwitchOn);//La consola muestra true por que todos los valores son true;
+//El signo (&&) es el operador AND y es un operador lógico, si todas las condiciones son true, la consola muestra true, si una o más condiciones dan false, la consola mostrara false, y si todas las consiciones dan false, la consola mostrara false;
+
+let isBatteryOn1 = false;
+let isSwitchOn1 = false;
+console.log(isBatteryOn1 && isSwitchOn1);//La consola muestra false por que todos los valores son false;
+
+let isBatteryOn2 = true;
+let isSwitchOn2 = false;
+console.log(isBatteryOn2 && isSwitchOn2);//La consola muestra false por que un valor esta en false;
+
+let isBatteryOn3 = true;
+let isSwitchOn3 = false;
+console.log(!(isBatteryOn3 && isSwitchOn3));//La consola muestra true por que invierte el valor de false por nuestro operador NOT (!) que este invierte los reusltados o valores;
+
+let age = 18;
+let isPass = true;
+const isEligible = age >= 18 && isPass;
+console.log(isEligible);
+//La consola imprime true, contexto: emitir una licencia de conducción a una persona de 18 o mas años y aprobar su examen de manejo, en el ejemplo sale true ya que las condiciones si se cumplen;
+
+let loanREjected = false;//No le cancelaron el prestamo;
+let dollars = 30000;//Tiene dinero insuficiente para comprar el carro;
+let costo = 50000;//El precio del carro;
+const insufficientFunds = dollars < costo;//No le alcanza el dinero por que el tiene 30000 y el carro cuesta 50000 tiene menos dinero de lo que scuesta el carro;
+const canBuyCar = !(loanREjected && insufficientFunds);//Puede comprar el carro ya que no le anularon el prestamo y su dinero es de 30000;
+console.log(canBuyCar);//En conclusion el prestamo seria de 20000 y si le alcanzaria para comprar el carro entre su dinero actual y el prestamo;
+//La consola imprime true, contexto: comprobar si una persona puede comprar un carro o no;
+
+let bateriaEncendida = true;
+let enchufe = false;
+console.log(bateriaEncendida || enchufe);//La consola muestra true por que un valor es true;
+//El signo (||) es el operador OR yes un operador lógico, basta con que un valor sea true para que la consola muestre true, si no hay ningun valor true la consola mostrara false;
+
+let bateriaEncendida1 = true;
+let enchufe1 = true;
+console.log(bateriaEncendida1 || enchufe1);//La consola muestra true por que un valor es true;
+
+let bateriaEncendida2 = false;
+let enchufe2 = false;
+console.log(bateriaEncendida2 || enchufe2);//La consola muestra false por que todos los valores son false y no hay ningun true;
+
+let isLoanApproved = true;
+let cash = 30000;
+let cost = 40000;
+const isCarBought = isLoanApproved || (cash > cost);
+console.log(isCarBought);
+//La consola imprime true, contexto: verificar si una persona puede comprar un carro si su prestamo es aprobado o si su monto es mayor al costo del carro y en el ejemplo sale true por que si se le fue aprovado el prestamo;
+
+let cloundStorage = 4;//Almacenamiento de la nube;
+let systemStorage = 8;//Almacenamiento del sistema;
+let fileSize = 5;//Tamaño del archivo;
+const resultado = (cloundStorage > fileSize) || (systemStorage > fileSize);//Si el almacenamiento de la nube es mayor al tamaño del archivo o si el almacenamiento del sistema es mayor al tamaño del archivo;
+console.log("Saved? :" + resultado);//No se cumple con la primera afirmacion que equivale a false pero la segunda si y esa equivale a true, entonces el archivo si se guarda ya que el tamaño de alamacenamiento es superior al del archivo;
+//La consola imprime true, contexto: guardar un archivo en la nube si el almacenaniento de esta es mayor al del archivo o si el almacenamiento del sistema es mayor que la del tamaño del archivo;
 
 var answer = pickRandom([
     'yes',
