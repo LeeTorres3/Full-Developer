@@ -279,6 +279,30 @@ if (pass) {
 }
 //La consola muestra true ya que si el score es mayor a 50 si puede obtener el pass;
 
+let number1 = 100;
+if (number === 10) {
+    console.log("It's 10");
+} else {
+    console.log("It's not 10");
+}//La consola imprime (It's not 10) por que el 100 no es igual a 10, ese seria al valor false, entonces se ejecutara el else ya que la respuesta es (100 no es igual a 10) ese sería el valor true;
+//La declaración else se ejecuta cuando la condición de instruccion de if es false, es como una respuesta o accion que se ejecuta cuando algo es negativo; 
+
+let hour = 9;
+if (hour < 12) {
+    console.log("Good morning");
+} else {
+    console.log("Good evening");
+}
+//La conola imprimira (Good morning) ya que si la hora es menor a 12 la consola imprime good morning, ese seria el valor true y si no que la consola imprima good evening, ese seria el valor false;
+
+let hours = 14;//hour es 14;
+if (hours < 12) { //Si hours (14) es menor a 12 que la consola imprima (Good morning) pero no es asi, el valor seria false;
+    console.log("Good morning");
+} else if (hours < 17) { //Ademas del else agregamos una nueva condición, ahora si hours (14) es menor a 17 la consola debe ejecutar (Good safternoon) este seria el valor true;
+    console.log("Good afternoon")
+}
+//La consola muestra (Good afternoon) la sentencia del else se le llama: (sentencia else sentencia if), podemos agregar todas las declaraciones else que sean requeridas, siempre y cuando vayan despues de una condicion if, dentro de los parentesis de if o else if podemos agregar operadores para hacer nuestra condicion;
+
 var answet = pickRandom([
     'yes',
     'no'
