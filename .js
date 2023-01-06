@@ -354,6 +354,20 @@ keepGoing = false;
 //Detiene  el bucle e impide que se imprima infinitamente, la consola imprime: (keepGoing: true keepGoing: false);
 //Cuando la condición se pone en false el código se detendrá (se coloca al final del codigo dentro del bloque);
 
+let counter = 5; //Variable contador;
+while (counter < 10) {
+    console.log(counter);
+    counter++;
+}
+//La consola imprimira (5, 6, 7, 8, 9) el bucle inicia en el numero 5 y se detiene en el número 9 (siempre y cuando el counter este despues del console.log);
+
+let counter1 = 5;
+while (counter1 < 10) {
+    counter1++;
+    console.log(counter1);
+}
+//La consola imprimira (6, 7, 8, 9, 10) el bucle inicia en el numero 6 y se detiene en el numero 10 (siempre y cuando el counter este antes del console.log);
+
 var answet = pickRandom([
     'yes',
     'no'
