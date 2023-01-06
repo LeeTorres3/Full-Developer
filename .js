@@ -303,6 +303,57 @@ if (hours < 12) { //Si hours (14) es menor a 12 que la consola imprima (Good mor
 }
 //La consola muestra (Good afternoon) la sentencia del else se le llama: (sentencia else sentencia if), podemos agregar todas las declaraciones else que sean requeridas, siempre y cuando vayan despues de una condicion if, dentro de los parentesis de if o else if podemos agregar operadores para hacer nuestra condicion;
 
+let wallet = 3;
+wallet = wallet + 2;
+wallet = wallet - 1;
+console.log(wallet);
+//La  consola imprime (4) ya que contiene una variable de autoasignasión para dar seguimientos a datos que pueden irse modificando o actualizando con el tiempo;
+
+let nameInfo = "Account name: ";
+nameInfo = nameInfo + "Elton";
+nameInfo = nameInfo + "John";
+console.log(nameInfo);
+//La consola imprimira (Account name: Elton John) ya que asigna un valor la variable y se le suma uno nuevo, la variable se actualiza y se le suma otro valor, en este caso son strings;
+
+let likes = 5;
+likes += 1;
+console.log(likes);
+//La conola imprimira (6) ya que el signo (+=) significa que al valor de la variable le sumaremos la cantidad asignada por el signo, (es una suma);
+
+let likeS = 5;
+likeS -= 3;
+console.log(likeS);
+//La conola imprimira (2) ya que el signo (-=) significa que al valor de la variable le restaremos la cantidad asignada por el signo, (es una resta);
+
+let likesNew1 = 5;
+likesNew1 ++;
+console.log(likesNew1);
+//La consola imprimira (6) ya que el signo (++) que es el operador de incremento y le suma a nuestra variable el valor de (1);
+
+let likesNew2 = 5;
+likesNew2 --;
+console.log(likesNew2);
+//La consola imprimira (4) ya que el signo (--) que es el operador de decremento y le resta a nuestra variable el valor de (1);
+
+while (true) {
+    console.log("and again");
+}
+//La consola imprimira (and again) muchas veces, de manera infinita, (bucle while), se ejecuta si la condición es true;
+
+while (false) {
+    console.log("and again");
+}
+//La conola no imprime nada ya que el bucle solo se ejecuta con la condición true, no false;
+
+let keepGoing = true;
+while (keepGoing === true) {
+    console.log("keepGoing: " + keepGoing);
+keepGoing = false;
+    console.log("keepGoing: " + keepGoing);
+}
+//Detiene  el bucle e impide que se imprima infinitamente, la consola imprime: (keepGoing: true keepGoing: false);
+//Cuando la condición se pone en false el código se detendrá (se coloca al final del codigo dentro del bloque);
+
 var answet = pickRandom([
     'yes',
     'no'
