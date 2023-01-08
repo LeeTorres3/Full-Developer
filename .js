@@ -368,6 +368,21 @@ while (counter1 < 10) {
 }
 //La consola imprimira (6, 7, 8, 9, 10) el bucle inicia en el numero 6 y se detiene en el numero 10 (siempre y cuando el counter este antes del console.log);
 
+for (let i = 1; i < 5; i++) {
+    console.log(i); 
+}
+//La consola imprimira (1, 2, 3, 4) el bucle se hace más facil de leer por que es un bucle for, es una manera simplificada de hacer un bucle;
+
+for (let i2 = 5; i2 > 0; i2--) {
+    console.log(i2);
+}
+//La consola imprimira (5, 4, 3, 2, 1) el bucle va de manera desendente o hacia abajo;
+
+for (let i3 = 5; i3 >= 0; i3--) {
+    console.log(i3);
+}
+//La consola imprimira (5, 4, 3, 2, 1, 0) el bucle va de manera desendente pero el signo (>=) mayor o igual que, agregue el número 0 al bucle, este puede ser cualquir otro numero, siempre y cuando tenga el signo (>=);
+
 var answet = pickRandom([
     'yes',
     'no'
