@@ -383,34 +383,24 @@ for (let i3 = 5; i3 >= 0; i3--) {
 }
 //La consola imprimira (5, 4, 3, 2, 1, 0) el bucle va de manera desendente pero el signo (>=) mayor o igual que, agregue el número 0 al bucle, este puede ser cualquir otro numero, siempre y cuando tenga el signo (>=);
 
-var answet = pickRandom([
-    'yes',
-    'no'
-])
-print(answer)
-pickRandom([
-    'tal vez',
-    'probablemente'
-])
-//Ejemplo de respuestas aleatorias;
-
-var exmapleArray =[
-    'blue',
-    'orange',
-    5,
-    10
-    [
-        50,
-        10
-    ]
+const friends = [
+    "Axel",
+    "Karol",
+    "Alejandro"
 ];
-//Ejemplo de arreglo;
+console.log(friends);
+//La consola imprime (Axel Karol Alejandro), este es un arreglo y los strings o valores son sus elementos, agrupa varios valores en una sola variable;
 
-var colors = [
-    'black',
-    'white'
-];
+const temperatures = [17, 20, 26, 24];
+console.log(temperatures[2]);
+//La consola imprime (26), la conola ejecuta el número 26 por que lo indicamos con el índice [2], los índices inician desde el cero (primer valor), sirven para especificar que elemento o valor se ejecutara o actualizara en un arreglo;
 
+const temperature = [17, 20, 26, 24];
+temperature[2] = 25;
+console.log(temperature);
+//La conola imprime (17, 20, 25, 24), el valor de (26) lo actualizamos a (25);
+
+var colors = ['black','white'];
 drawBox(colors[0]);
 drawBox(colors[1]);
 drawBox(colors[0]);
@@ -422,7 +412,7 @@ newline();
 drawBox(colors[0]);
 drawBox(colors[1]);
 drawBox(colors[0]);
-//Patron de colores usando arreglos;
+//Patron de colores usando arreglos e índices;
 
 var color = pickRandom([
     'blue',
