@@ -414,6 +414,42 @@ drawBox(colors[1]);
 drawBox(colors[0]);
 //Patron de colores usando arreglos e índices;
 
+const toDo = ["call mom", "dishes"];
+toDo.push("groceries", "feed cat");
+console.log(toDo);
+//La consola imprime (call mom, dishes, groceries, feed cat) el (.push) sirve para agregar valores a nuestros arreglos y los agrega al final de nuestra lista;
+
+const toDo1 = ["call mom", "dishes"];
+toDo1.pop();
+console.log(toDo1);
+//La consola imprime (call mom) el (.pop) sirve para eliminar el último elemento de nuestro arreglo;
+
+const toDo2 = ["call mom", "dishes"];
+let chore = toDo2.pop();
+console.log(chore);
+//La consola imprime (dishes), cuando se usa el (.pop) en una variable, la variable toma el valor que estamos eliminando, osea el último valor del arreglo;
+
+const tasks = ["dishes", "windows", "vacuum", "dusting", "laundry"];
+console.log(tasks.length);
+//La consola imprimira (5) ya que (.length) cuenta cuantos elementos tenemos en nuestro arreglo;
+
+const task = ["dishes", "windows", "vacuum"];
+const length = task.length;
+console.log(length);
+//La consola imprimira (3) por que (.length) cuenta cuantos elementos tenemos en nuestro arreglo, esta es otra forma de usar (.length);
+
+const tasks1 = ["dishes", "windows", "vacuum"];
+if (tasks1.length > 0) {
+    console.log("Ugh, more work!");
+}
+//La consola imprimira (Ugh, more work!) por que debe ejecutarse el mensaje si (tasks1.length) es mayor a 0;
+
+const friend = ["Ana", "Eve", "Sam"];
+for (let i = 0; i < friend.length; i++) {
+    console.log(friend[i]);
+}
+//La consola imprime (Ana Eve Sam) usando un bucle for, se repite el bucle tantas veces como elementos haya en el arreglo usando la propiedad .length;
+
 var color = pickRandom([
     'blue',
     'green'
