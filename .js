@@ -450,6 +450,27 @@ for (let i = 0; i < friend.length; i++) {
 }
 //La consola imprime (Ana Eve Sam) usando un bucle for, se repite el bucle tantas veces como elementos haya en el arreglo usando la propiedad .length;
 
+function greetUser() {
+    console.log("Good morning Lee");
+    console.log("Welcome back");
+}
+greetUser();
+//La consola imprimira (Good morning Lee Welcome back), las funciones (fuction) sirven para agrupar código relacionado y evitar crear muchos códigos para una tarea en específico;
+
+function greet(names) {
+    console.log("Hello" + names);
+}
+greet("Lee");
+greet("Salomón");
+//La consola imprimira (Hello Lee Hello Salomón) el parámetro de la funcion es (names) esa es la variable, la ejecutamos asignandole un valor a (names) al final del código;
+
+function greet1() {
+    const myName = "Lee";
+    console.log("Hello " + myName);
+}
+greet1();
+//La consola imprimira (Hello Lee) aquí la variable le da valor a la función, y se ejecuta con nuestro (console.log);
+
 var color = pickRandom([
     'blue',
     'green'
