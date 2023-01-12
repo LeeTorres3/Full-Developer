@@ -471,6 +471,21 @@ function greet1() {
 greet1();
 //La consola imprimira (Hello Lee) aquí la variable le da valor a la función, y se ejecuta con nuestro (console.log);
 
+function userAge(number) {
+    const age = "User age: " + number;
+    return age;
+}
+console.log(userAge(22));
+//La consola imprime (User age: 22) ya que establecemos que el number de la edad es 22;
+
+function edadDeUsuario(numero) {
+    const edad = "Edad de usuario: " + numero;
+    return edad;
+}
+const resultado1 = edadDeUsuario(29);
+console.log(resultado1);
+//La consola imprime (Edad de usuario: 29) ya que establecemos que la edad del usuario es 29; 
+
 var color = pickRandom([
     'blue',
     'green'
