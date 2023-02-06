@@ -46,11 +46,32 @@
 <title></title>
 //Se pone entre el (head) y define el titulo de la pagina y aparece en la pestaña del navegador;
 
+<link rel="icon" href="imagen.icon">
+//Pondra una imagen o un icono a un lado del titulo de página en la pestaña del navegador;
+
 <!DOCTYPE HTML>
 //Le dice al navegador que versión de HTML estamos usando, (esta es la ultima version);
 
+<meta>
+//Dentro de esta etiqueta van los (metadatos) los datos no visibles de la página o sitio;
+
 <meta charset="UTF-8">
-//Reconoce mi sitio web acentos;
+//Reconoce mi sitio web acentos o codificación universal, cualquier carácter o símbolo;
+
+<meta name="keywords" content="código, programacion, páginas web, desarrollo, tecnología">
+//Son las palabras clave de la página web, que cuando en el navegador se busquen esas palabras, pueda salir nuestro sitio web;
+
+<meta name="description" content="Developer LeexTorres es un usuario creador de proyectos tecnológicos">
+//Es la descripción del sitio web de la compañia o empresa;
+
+<meta name="author" content="Developer LeexTorres">
+//Se coloca el autor o desarrollador del sitio web;
+
+<meta name="copyright" content="Mark Digitalix">
+//Se coloca si el sitio o empresa tiene copyright y si esta registrada, y se coloca el nombre de la empresa con los derechos de la página;
+
+<meta name="robots" content="index">
+//Es el dato que indica si nuestra página esta indexada a los navegadores o no, si esta indexada al búscar palabras clave de nuestra página en el navegador, saldra nuestro sitio en la lista, pero si no, el navegador no mostrara nuestro sitio si lo buscan (index) indexada (noindex) no indexada;
 
 <button><strong>continue</strong></button>
 //Le da estilo al boton (poniendole negritas);
@@ -88,6 +109,9 @@ target="_blank"
 
 <img alt="">
 //(alt) es el atributo que nos dejara colocar un texto que nos describa la imagen en caso de que esta no aparezca;
+
+<img title="">
+//(title) es el atributo que nos deja colocar un título a la imagen, al pasar el cursor por la imagen o al darle click se verá el título asignado a la imagen;
 
 width: Ancho
 height: Altura
@@ -175,6 +199,9 @@ controls
 </div>
 //Una anidacion son elementos dentro de otros elementos;
 
+<center></center>
+//Centra el contenido dentro de las etiquetas, se recomienda hacer esta función en CSS;
+
 <ol></ol>
 //Con estas etiquetas se puede hacer una lista ordenada (O= "ordered", L= "list");
 
@@ -238,6 +265,25 @@ for=
 placeholder=
 //Es un atributo que se usa para sustituir las etiquetas para agregar formularios, reemplaza label;
 
+<table></table>
+//Permite colocar datos en una tabla, usando (tr (fila)) y (td (columna));
+
+<table border="1px">
+    <tr>
+        <td><b>Nombre</b></td>
+        <td><b>Apellido</b></td>
+        <td><b>Edad</b></td>
+    </tr>
+    <tr>
+        <td>Lee</td>
+        <td>Torres</td>
+        <td>15</td>
+    </tr>
+</table>
+
+border=""
+//Este atributo nos pone las líneas a la tabla, los datos estan mejor organizados, pero es preferible hacerlo con CSS;
+
 <time></time>
 //Indica una fecha u hora en nuestro texto;
 
@@ -251,7 +297,13 @@ placeholder=
 //Define y agrupa el contenido en la parte superior de la página;
 
 <nav></nav>
-//Define grupos de elementos que ayudan a usuarios a navegar fuera de la página actual;
+//Define grupos de elementos que ayudan a usuarios a navegar fuera o dentro de la página actual, barra de navegación, es la parte superior del sitio;
+
+<article></article>
+//Es una sección o bloque de información, dentro de esta se puede poner un secction, es la sección principal de un sitio web;
+
+<aside></aside>
+//Es la sección o bloque secundario del sitio, puede ir a un lado del (article) este puede mostrar información no tan relevante, generalmente va a los costados del article;
 
 <section></section>
 //Define un grupo de contenido con un solo tema;
@@ -260,7 +312,7 @@ placeholder=
 //Ejemplo de poner un distintivo a nuestra (section) para poder editarlo con CSS;
 
 <footer></footer>
-//Define y agrupa el contenido en la parte inferior de la página;
+//Define y agrupa el contenido en la parte inferior de la página, es la área donde va las politicas, derechos,links, redes, etc...;
 
 <main></main>
 //Define el contenido específico de la página web en particular;
@@ -358,6 +410,10 @@ aria-hidden
 
 <h1 class=".Ejemplo">Ejemplo</h1>
 //Ejemplo de clase para que este seguro de que elemnto de mi HTML darle estilo en CSS;
+
+<a href="#codigo">Click aqui para ver código</a>
+<h2 id="codigo">El código es 20201244ki</h2>
+//ESto hara que al darle click a (Click aqui para ver código) me llevara al apartado del el código, esta función sirve cuando se tiene mucha información en una página del sitio o es muy larga;
 
 <span></span>
 //Sirve para que un texto en específico tenga un color diferente al resto;
